@@ -2,12 +2,22 @@
 <html lang="en">
     <head>
         <title>Google Image Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="styleSearch.css">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div id="center">
+          <h1>Search for any image!</h1>
+          <form action="https://www.google.com/images">
+              <input type="text" name="q">
+              <input type="submit" value="Google Image Search"><br>
+          </form>
+        </div>
+
+        <div id="right">
+         <a href="googleSearch.html">Google Search</a> <br>
+         <a href="googleAdvancedSearch.html">Google Advanced Search</a> <br>
+        </div>
     </body>
 </html>
