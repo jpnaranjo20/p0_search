@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styleSearch.css">
+    </head>
+    <body>
+
+      <div id="right">
+        <a href="googleSearch.html">Google Search</a> <br>
+        <a href="googleImageSearch.html">Google Image Search</a> <br>
+      </div>
+
+      <h2>Advanced Search</h2>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-cm-12">
+            <h6>Find pages with...</h6>
+            <form action="https://www.google.com/search" >
+              <label for="all">All these words (type the important words: tri-colour rat terrier):</label>
+              <input type="text" id="all" name="as_q"> <br>
+              <label for="exact">This exact word or phrase (put exact words in quotes: "rat terrier"):</label>
+              <input type="text" id="exact" name="as_epq"> <br>
+              <label for="any">Any of these words (type OR between all the words you want: miniature OR standard):</label>
+              <input type="text" id="any" name="as_oq"> <br>
+              <label for="none">None of these words (put a minus sign just before words that you don't want: -rodent, -"Jack Russell"):</label>
+              <input type="text" id="none" name="as_eq"> <br>
+              <span class="center"><input type="submit" name="search?" value ="Advanced Search"> </span> <br>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </body>
+</html>

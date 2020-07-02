@@ -1,0 +1,77 @@
+/*Constants*/
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 5px 8px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border: 2px solid #4071f7;
+  border-radius: 10px;
+  color: white;
+  background-color: #4071f7;
+  text-align: center;
+}
+
+div {
+  font-family: "Arial", Helvetica, sans-serif;
+}
+div p {
+  color: #4071f7;
+}
+
+h1, h2 {
+  color: #ff3f2e;
+  text-align: center;
+  padding: 20px;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: left;
+}
+
+/*IDs*/
+#center {
+  font-size: 34px;
+  color: #ff3f2e;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#right {
+  font-size: 28px;
+  text-align: right;
+  color: #4071f7;
+  padding-right: 20px;
+}
+
+#left {
+  font-size: 28px;
+  text-align: left;
+  color: #4071f7;
+  padding-left: 20px;
+}
+
+/* Classes */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+
+/*# sourceMappingURL=styleSearch.css.map */
