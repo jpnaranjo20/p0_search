@@ -4,11 +4,13 @@ $color2: rgb(64, 113, 247); //specific blue
 $color3: rgb(255, 63, 46); //specific red
 $color4: white;
 $color5: black;
+$color6: rgb(117, 117, 117); //specific grey (dark)
+$color7: rgb(230, 230, 230); //specific grey (light)
 $mediumHeight: 200px;
 $mediumWidth: 100px;
 $margin: 30px;
 $padding: 20px;
-$smallFontSize: 20px; 
+$smallFontSize: 20px;
 $mediumFontSize: 28px;
 $bigFontSize: 34px;
 
@@ -21,15 +23,29 @@ input[type=text] {
   border-radius: 10px;
 }
 
+span {
+  input[type="submit"]{
+    width: 100%;
+    padding: 5px 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 2px solid $color2;
+    border-radius: 10px;
+    color: $color4;
+    background-color: $color2;
+    text-align: center;
+  }
+}
+
 input[type=submit] {
-  width: 100%;
+  width: 45%;
   padding: 5px 8px;
   margin: 6px 0;
   box-sizing: border-box;
-  border: 2px solid $color2;
+  border: 2px solid $color7;
   border-radius: 10px;
-  color: $color4;
-  background-color: $color2;
+  color: $color6;
+  background-color: $color7;
   text-align: center;
 }
 
